@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+  xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+
+<head>
+  <vtex:metaTags />
+  <title>Sawary Jeans</title>
+  <vtex:template id="SWRY - Header - includes" />
+</head>
+
+<body>
+  <vtex:template id="swry-header" />
+
+  <div class="form-register">
+    <section class="cadastro">
+      <h2>Cadastro</h2>
+
+      <div class="box-fields">
+        <div class="field">
+          <input type="text" placeholder="Razão Social" id="razaoSocial" />
+        </div>
+        <div class="field">
+          <input type="text" placeholder="Nome fantasia*" id="nomeFantasia" />
+          <span class="erro"></span>
+        </div>
+      </div>
+      <div class="box-fields">
+        <div class="field">
+          <input type="text" placeholder="CNPJ*" id="cnpj" />
+          <span class="erro"></span>
+        </div>
+        <div class="field">
+          <input type="text" placeholder="Inscrição Estadual*" id="inscricaoEstadual" />
+          <span class="erro"></span>
+        </div>
+      </div>
+      <div class="box-fields check">
+        <label>
+          <input type="checkbox" id="isento" value="isento" />
+          Inscrição Estadual Isento
+        </label>
+      </div>
+      <div class="box-fields">
+        <div class="field">
+          <input type="text" placeholder="Nome Contato Responsável" id="contatoResponsavel" />
+        </div>
+        <div class="field">
+          <input type="text" placeholder="Email*" id="email" />
+          <span class="erro"></span>
+        </div>
+      </div>
+      <div class="box-fields">
+        <div class="field">
+          <input type="text" placeholder="Telefone*" id="telefone" />
+          <span class="erro"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="endereco">
+      <h2>Endereço</h2>
+
+      <div class="box-fields">
+        <div class="field">
+          <input type="text" placeholder="CEP" id="cep" />
+          <span class="erro"></span>
+        </div>
+        <div class="field">
+          <input type="text" placeholder="Logradouro" id="logradouro" />
+        </div>
+      </div>
+      <div class="box-fields">
+        <div class="field">
+          <input type="text" placeholder="Número" id="numero" />
+        </div>
+        <div class="field">
+          <input type="text" placeholder="Bairro" id="bairro" />
+        </div>
+      </div>
+      <div class="box-fields">
+        <div class="field">
+          <input type="text" placeholder="Complemento" id="complemento" />
+        </div>
+        <div class="field">
+          <input type="text" placeholder="Cidade" id="cidade" />
+        </div>
+      </div>
+      <div class="box-fields">
+        <div class="field">
+          <input type="text" placeholder="Estado" id="estado" />
+        </div>
+        <div class="field">
+          <input type="text" placeholder="País" id="pais" />
+        </div>
+      </div>
+    </section>
+
+    <div class="info">
+      <span>*campo obrigatório</span>
+    </div>
+
+    <div class="box-buttons">
+      <button id="cadastrar">Cadastrar</button>
+      <a href="#" class="btn-secundary">Continuar comprando</a>
+    </div>
+  </div>
+
+  <vtex:template id="swry-footer" />
+  <vtex:template id="SWRY - Footer - includes" />
+</body>
+
+</html>
